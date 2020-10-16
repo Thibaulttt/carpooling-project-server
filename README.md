@@ -15,3 +15,7 @@ Clone the repo
 Install maven dependencies
 
 ``mvn install``
+
+Create jar
+
+``mvn compile assembly:single``
