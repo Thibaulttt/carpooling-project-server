@@ -1,16 +1,16 @@
 package com.carpoolingproject.carpoolingserver.model;
 
-public class Voiture {
+public class Car {
     private String id;
 
     private String nom;
 
     private int numberOfPlaces;
 
-    public Voiture() {
+    public Car() {
     }
 
-    public Voiture(String id, String nom, int numberOfPlaces) {
+    public Car(String id, String nom, int numberOfPlaces) {
         this.id = id;
         this.nom = nom;
         this.numberOfPlaces = numberOfPlaces;

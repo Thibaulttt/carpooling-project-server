@@ -1,4 +1,4 @@
 package com.carpoolingproject.carpoolingserver.model;
 
-public class Trajet {
+public class Booking {
 }

@@ -18,17 +18,17 @@ public class User {
 
     private String lastName;
 
-    private Voiture voiture;
+    private Car car;
 
     public User() {
     }
 
-    public User(String email, List roles, String firstName, String lastName, Voiture voiture) {
+    public User(String email, List roles, String firstName, String lastName, Car car) {
         this.email = email;
         this.roles = roles;
         this.firstName = firstName;
         this.lastName = lastName;
-        this.voiture = voiture;
+        this.car = car;
     }
 
     public String getId() {
@@ -71,11 +71,11 @@ public class User {
         this.lastName = lastName;
     }
 
-    public Voiture getVoiture() {
-        return voiture;
+    public Car getVoiture() {
+        return car;
     }
 
-    public void setVoiture(Voiture voiture) {
-        this.voiture = voiture;
+    public void setVoiture(Car car) {
+        this.car = car;
     }
 }
