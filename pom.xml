@@ -12,7 +12,7 @@
 	<artifactId>carpooling-server</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>carpooling-server</name>
-	<description>Server for the carpoling app</description>
+	<description>Server for the carpooling app</description>
 
 	<properties>
 		<java.version>11</java.version>
